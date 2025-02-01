@@ -7,8 +7,8 @@ else {
 }
 
 # Define FTP login credentials for anonymous access
-$ftpUsername = "unkown"
-$ftpPassword = ConvertTo-SecureString -String "unkown" -AsPlainText -Force
+$ftpUsername = "unknown"
+$ftpPassword = ConvertTo-SecureString -String "unknown" -AsPlainText -Force
 $ftpCredentials = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $ftpUsername, $ftpPassword
 
 # Establish FTP connection session
